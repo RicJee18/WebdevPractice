@@ -75,7 +75,35 @@
     <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>
     <span class="w3-large">Stop wasting valuable time with projects that just isn't you.</span>
     <br>
-    <p><a href="index.html" class="w3-button w3-orange w3-text-white w3-padding-large w3-large w3-margin-top  w3-hover-yellow w3-round" style="text-decoration:none;">SIGN UP FOR FREE</a></p>
+    
+    <div>
+        <a class="w3-button w3-orange w3-text-white w3-padding-large w3-large w3-margin-top  w3-hover-yellow w3-round" style="text-decoration:none;" data-toggle="modal" data-target="#myModal">SIGN UP FOR FREE</a>
+    </div>
+
+    <!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+      
+          <!-- Modal content-->
+          <form action="/action_page.php">
+            <div class="form-group">
+              <label for="email">Email address:</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+              <label for="pwd">Password:</label>
+              <input type="password" class="form-control" id="pwd">
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox"> Remember me</label>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+
+      
+        </div>
+      </div>
+
   </div> 
   <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:20px 18px;">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
